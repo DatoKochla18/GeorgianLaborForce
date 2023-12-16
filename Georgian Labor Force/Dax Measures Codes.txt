@@ -1,0 +1,29 @@
+_ALL = DISTINCTCOUNT(FactWorkForce[ID])
+
+ALL Employed = 
+ CALCULATE(DISTINCTCOUNT(FactWorkForce[ID]),FactWorkForce[Employed]=1.0)
+
+ALL Hired = 
+ CALCULATE(DISTINCTCOUNT(FactWorkForce[ID]),FactWorkForce[Hired]=1.0)
+
+ALL Self-Employed = 
+ CALCULATE(DISTINCTCOUNT(FactWorkForce[ID]),FactWorkForce[Self_employed]=1.0)
+
+ALL Unemployed = 
+ CALCULATE(DISTINCTCOUNT(FactWorkForce[ID]),FactWorkForce[Unemployed]=1.0)
+
+AVG Commute Time = AVERAGEX(FactWorkForce,RELATED(DimGetToWorkTime[avg_time]))
+
+AVG Earnings = 
+AVERAGEX(
+    FactWorkForce,Related(DimNetEarnings[custom]))
+
+Employment Rate = [ALL Employed]/[_ALL]
+
+Hired Rate = 
+ CALCULATE(DISTINCTCOUNT(FactWorkForce[ID]),FactWorkForce[Hired]=1.0)/[_ALL]
+
+Hourly Earnings = AVERAGEX(FactWorkForce,RELATED(DimNetEarnings[Custom])/FactWorkForce[Working_Usually_hours])
+
+Self Employed Rate = 
+ CALCULATE(DISTINCTCOUNT(FactWorkForce[ID]),FactWorkForce[Self_employed]=1.0)/[_ALL]
