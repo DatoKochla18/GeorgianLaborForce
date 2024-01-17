@@ -1,0 +1,20 @@
+Gender Breakdown:
+ The number of employed males (23.5K) vastly outnumbers employed females (12K) by close to 2x in the dataset. 
+This indicates a significant gender gap in labor force participation.
+Age Dynamics:
+ Younger age groups (below 40) have significantly lower earnings (317-580 GEL) but higher hourly wages (14-15 GEL) compared to older adults (40+),
+ indicating younger workers are more likely to be in part-time or temporary employment.
+Occupational Differences: 
+Services & sales roles along with skilled agriculture workers make up over 50% of employment. B
+ut average earnings are highest for Managers (1374 GEL) and Professionals (1408 GEL) - over 2.5x higher than agriculture workers.
+ This showcases a divide between high and low wage occupations.
+Regional Wage Disparity:
+ Average monthly earnings significantly differ by region
+ from a high of 637 GEL in Tbilisi to a low of 458 GEL in Kvemo Kartli indicating gaps in economic opportunities based on location. 
+Similar gaps observed for hourly wages and unemployment rates.
+5.Long Commutes: 
+The average commute time of 21 minutes masks the fact that 8% report commute times over 1 hour. 
+Improving transportation infrastructure can help reduce commute burden for certain pockets.
+
+Informal Job Search: Over 50% of people finding work do so through friends/relatives rather than formal channels like job portals or government agencies.
+ This highlights the importance of connections and networks.
